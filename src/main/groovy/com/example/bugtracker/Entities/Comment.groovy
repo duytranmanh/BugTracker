@@ -2,8 +2,11 @@ package com.example.bugtracker.Entities
 
 import java.time.LocalDateTime;
 
-
+/**
+ * Comment class: contains information about comments a user made
+ */
 class Comment implements Serializable {
+    //id
     private UUID id;
     private String content;
     private User author;

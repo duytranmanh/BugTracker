@@ -2,13 +2,12 @@ package com.example.bugtracker.Entities
 
 import java.time.LocalDateTime
 
-class Post implements Serializable {
-
-
 /**
  * A post contains the issues/tasks created by a user
  * @author duy
  */
+class Post implements Serializable {
+
     private UUID id;
     private PostStatus status;
     private String title;
